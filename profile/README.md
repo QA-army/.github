@@ -8,15 +8,7 @@
 
 **You ship. Our agents test.**
 
-QA.army is a verification cloud for small software teams. Describe a critical user journey in plain language, save it as a Test, and start a Run from your terminal or coding agent. Every Run ends in one of three results:
-
-| Result | Meaning |
-| --- | --- |
-| `PASSED` | The expected behavior held. |
-| `FAILED` | The product violated an expectation. |
-| `ERROR` | QA.army could not determine a trustworthy product result. |
-
-Work is organized as Workspace → Project → Test Group → Test → Run.
+QA.army is a verification cloud for small software teams. QA.army is the AI QA platform that explores your web apps to find bugs, then writes, runs and maintains the tests that catch them before they ship.
 
 ## Start
 
