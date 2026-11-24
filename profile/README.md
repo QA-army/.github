@@ -8,7 +8,7 @@
 
 **You ship. Our agents test.**
 
-QA.army is a verification cloud for small software teams. QA.army is the AI QA platform that explores your web apps to find bugs, then writes, runs and maintains the tests that catch them before they ship.
+QA.army helps small software teams write, run, and maintain Tests for critical web and native mobile journeys, with evidence for each Run.
 
 ## Start
 
@@ -33,17 +33,17 @@ The CLI and MCP server are thin adapters to the hosted QA.army API. Execution, a
 
 ## What works today
 
-Checked 2026-11-22 against [qa.army/llms.txt](https://www.qa.army/llms.txt).
-
 | Capability | State |
 | --- | --- |
 | Plain-language saved Web Test authoring | Available |
 | Agent identity, public API, CLI, direct Web Run path | Available |
+| Pull request testing | Dynamic and regression suites on qualifying [GitHub pull requests](https://docs.qa.army/github-pull-request-testing) with a matching Vercel preview and configured coverage |
 | One-prompt setup from a fresh coding agent | In final production verification |
-| Scheduled monitoring | Not generally available |
-| Native iOS, Android, and desktop execution | Not generally available |
+| Scheduled monitoring | [Repeating saved Tests via the API](https://docs.qa.army/production-monitoring) |
+| Native Android and iOS execution | [Registered builds in a Mobile Project](https://docs.qa.army/platforms/mobile), using Pixel 9 Pro on Android 15 or an iPhone 16 Pro simulator on iOS 18.2 |
+| Desktop execution | [Built-in QA.army Calculator on Linux Chromium at 1440×900](https://docs.qa.army/platforms/desktop) |
 
-Run `qa-army capabilities` before relying on execution, evidence, scheduling, mobile, desktop, or integration behavior. Pricing is a preview, and availability is stated separately from plan entitlement.
+Run `qa-army capabilities` to check which commands your installed CLI supports. [Pricing](https://www.qa.army/pricing) lists plan allowances, free self-serve signup, and paid-plan inquiries.
 
 ## Links
 
