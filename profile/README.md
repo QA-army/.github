@@ -13,7 +13,7 @@ QA.army helps small software teams write, run, and maintain Tests for critical w
 ## Start
 
 ```sh
-npm install -g https://github.com/QA-army/cli/releases/download/v0.2.11/qa-army-0.2.11.tgz
+npm install -g https://github.com/QA-army/cli/releases/download/v0.2.12/qa-army-0.2.12.tgz
 qa-army auth agent-register --email you@example.com
 qa-army capabilities
 ```
@@ -24,7 +24,7 @@ Requires Node.js 22+. Working through a coding agent instead? Point it at the se
 
 | Repository | What it does | State |
 | --- | --- | --- |
-| [cli](https://github.com/QA-army/cli) | `qa-army` command line. Creates saved Tests, starts Runs, returns JSON receipts. | MIT, v0.2.11 |
+| [cli](https://github.com/QA-army/cli) | `qa-army` command line. Creates saved Tests, starts Runs, returns JSON receipts. | MIT, v0.2.12 |
 | [mcp](https://github.com/QA-army/mcp) | MCP stdio server for the QA.army REST API. | MIT, v0.1.4 |
 | [skills](https://github.com/QA-army/skills) | Agent instructions for using the CLI and writing Tests. | MIT |
 | [open-device-router](https://github.com/QA-army/open-device-router) | Routes coding-agent browser and device sessions to free cloud capacity first, and stops before billing. | MIT, pre-release. Routing works as a dry run; session launch is not built. |
